@@ -20,7 +20,7 @@ public class Project {
 	@GeneratedValue
 	private Long id;
 	
-	@NaturalId
+	@NaturalId(mutable=true)
 	private String name;
 	
 	@ManyToMany
